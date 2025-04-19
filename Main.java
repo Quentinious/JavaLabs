@@ -1,5 +1,5 @@
 import org.example.model.GameModel;
-import org.example.view.GameView;
+import view.GameView;
 import org.example.controller.GameController;
 
 import javax.swing.*;
