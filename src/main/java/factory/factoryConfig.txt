@@ -1,0 +1,9 @@
+POP commands.CommandPop
+PUSH commands.CommandPush
++ commands.CommandSum
+- commands.CommandDifference
+* commands.CommandProduct
+/ commands.CommandDivision
+SQRT commands.CommandSqrt
+PRINT commands.CommandPrint
+DEFINE commands.CommandDefine
