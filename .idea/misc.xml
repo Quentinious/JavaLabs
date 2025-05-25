@@ -1,32 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="MavenProjectsManager">
-    <option name="originalFiles">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../Tasks/pom.xml" />
-        <option value="$PROJECT_DIR$/../Calcus/pom.xml" />
-        <option value="$PROJECT_DIR$/../OOP/pom.xml" />
-        <option value="$PROJECT_DIR$/../Game/pom.xml" />
-        <option value="$PROJECT_DIR$/../TheGame/pom.xml" />
-        <option value="$PROJECT_DIR$/../ToDoList/pom.xml" />
-        <option value="$PROJECT_DIR$/../Fabric/pom.xml" />
-        <option value="$PROJECT_DIR$/../untitled/pom.xml" />
-        <option value="$PROJECT_DIR$/../Internet/pom.xml" />
-        <option value="$PROJECT_DIR$/../InternetJava/pom.xml" />
-        <option value="$PROJECT_DIR$/../Abstract/pom.xml" />
-      </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/Calculator/pom.xml" />
-        <option value="$PROJECT_DIR$/Cows/pom.xml" />
-        <option value="$PROJECT_DIR$/../Internet/pom.xml" />
-      </set>
-    </option>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
