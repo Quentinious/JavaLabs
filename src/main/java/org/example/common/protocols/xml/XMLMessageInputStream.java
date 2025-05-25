@@ -7,7 +7,7 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.example.common.Message;
-import org.example.common.messages.*;
+//import org.example.common.messages.*;
 import org.example.common.modelobjects.ChatMessage;
 import org.example.common.modelobjects.ChatUser;
 import org.example.common.modelobjects.Session;

@@ -6,7 +6,7 @@ import org.example.common.ServerContext;
 import org.example.common.connections.ConnectionListener;
 import org.example.common.connections.factories.ConnectionsFactory;
 import org.example.common.messages.*;
-import org.example.common.messages.*;
+//import org.example.common.messages.*;
 import org.example.common.modelobjects.ChatUser;
 import org.example.common.modelobjects.Session;
 import org.example.common.protocols.Protocol;
@@ -54,7 +54,9 @@ class DefaultServer implements ServerContext, Server {
                 final Socket newClientSocket = serverSocket.accept();
                 final Connection newConnection = createConnection(newClientSocket, connectionListener, protocol);
                 serverData.addConnection(newConnection);
-            } catch (IOException ignored) {
+            } catch (IOException ignored)
+            {
+              //  System.out.printf("error");
             }
         }
     }
