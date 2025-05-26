@@ -87,7 +87,7 @@ public class Factory {
     }
 
     public void stopWork() throws InterruptedException {
-        /* interrupt all threads */
+       
         engineProducer.interrupt();
         bodyworkProducer.interrupt();
         for (Producer<Accessory> producer : accessoryProducersList) {
@@ -103,7 +103,7 @@ public class Factory {
         assemblyShop.interruptAll();
 
 
-        /*join all threads*/
+      
         engineProducer.join();
         bodyworkProducer.join();
         for (Producer<Accessory> producer : accessoryProducersList) {
