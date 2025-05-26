@@ -8,7 +8,7 @@ public class Main {
         FactoryGUI gui = new FactoryGUI(factory);
         gui.setVisible(true);
 
-        // Обновление статистики в отдельном потоке
+      
         new Thread(() -> {
             while (true) {
                 gui.updateStats(
