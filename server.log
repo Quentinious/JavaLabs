@@ -1,0 +1,36 @@
+INFO: Server launched with XML-protocol on address 127.0.0.1:8888
+
+INFO: Connection with 127.0.0.1:11434 is ready
+
+INFO: Received LoginRequest[chatUser=ChatUser[name=andrew, type=XML]] from 127.0.0.1:11434
+
+INFO: Started handling LoginRequest[chatUser=ChatUser[name=andrew, type=XML]] from 127.0.0.1:11434
+
+INFO: Created a new session=0
+
+INFO: User "andrew" joined with session=0
+
+INFO: Added to history LoginEvent[chatUser=ChatUser[name=andrew, type=XML]]
+
+INFO: Connection 127.0.0.1:11434 is sending LoginEvent[chatUser=ChatUser[name=andrew, type=XML]]
+
+INFO: Connection 127.0.0.1:11434 sent LoginEvent[chatUser=ChatUser[name=andrew, type=XML]]
+
+INFO: Received UsersListRequest[session=0] from 127.0.0.1:11434
+
+INFO: Started handling UsersListRequest[session=0] from 127.0.0.1:11434
+
+INFO: Received LogoutRequest[session=0] from 127.0.0.1:11434
+
+INFO: Started handling LogoutRequest[session=0] from 127.0.0.1:11434
+
+INFO: Connection with 127.0.0.1:11434 is closed
+
+INFO: class org.example.common.protocols.MessageStreamException with message "java.net.SocketException: Socket closed" is thrown in connection with 127.0.0.1:11434
+
+INFO: Session 0 removed
+
+INFO: User "andrew" left with session=0
+
+INFO: Added to history LogoutEvent[chatUser=ChatUser[name=andrew, type=XML]]
+
